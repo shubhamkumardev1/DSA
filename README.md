@@ -121,17 +121,40 @@ DSA-Java
 
 ## Sliding Window 🚀 Starting
 
-Currently beginning the Sliding Window pattern and progressing from fixed-size windows to variable-size window problems.
+### Fixed-Size Window (Window size = k)
+
+* Maximum/Minimum Sum of Size k
+* Maximum sum subarray of size k
+* Average of subarrays of size k
+* Count-Based Window
+* Count negative numbers in every window
+* Count distinct elements in every window
+* Frequency-Based Window
+* Maximum vowels in a substring of length k
+* Find anagrams in a string
+* Window Statistics
+* First negative integer in every window
+* Maximum element in every window
+
+### Variable-Size Window
+
+* Longest Subarray/Substring
+* Longest substring without repeating characters
+* Longest subarray with sum ≤ k
+* Longest repeating character replacement
+* Shortest/Minimum Window
+* Minimum size subarray sum
+* Minimum window substring
 
 ---
 
 # 📈 Progress
 
-| Pattern             | Status      |
-| ------------------- | ----------- |
+| Pattern             | Status       |
+| ------------------- | -----------  |
 | Traversal           | ✅ Completed |
 | Two Pointers        | ✅ Completed |
-| Sliding Window      | 🚀 Starting |
+| Sliding Window      | 🚀 Learning  |
 | Hashing             | ⏳ Pending   |
 | Prefix Sum          | ⏳ Pending   |
 | Binary Search       | ⏳ Pending   |
