@@ -1,5 +1,6 @@
 package Arrays.SlidingWindow;
-import java.util.Arrays;
+
+import java.util.HashMap;
 
 public class PermutationInString {
 
@@ -8,26 +9,52 @@ public class PermutationInString {
         String s1 = "ab";
         String s2 = "eidbaooo";
 
-        int k = s1.length();
+        HashMap<Character, Integer> targetMap = new HashMap<>();
+        HashMap<Character, Integer> windowMap = new HashMap<>();
 
-        char[] target = s1.toCharArray();
-        Arrays.sort(target);
+        for (char ch : s1.toCharArray()) {
+            targetMap.put(
+                    ch,
+                    targetMap.getOrDefault(ch, 0) + 1
+            );
+        }
 
-        boolean found = false;
+        int windowStart = 0;
 
-        for (int i = 0; i <= s2.length() - k; i++) {
+        for (int windowEnd = 0;
+             windowEnd < s2.length();
+             windowEnd++) {
 
-            String current = s2.substring(i, i + k);
+            char current = s2.charAt(windowEnd);
 
-            char[] arr = current.toCharArray();
-            Arrays.sort(arr);
+            windowMap.put(
+                    current,
+                    windowMap.getOrDefault(current, 0) + 1
+            );
 
-            if (Arrays.equals(target, arr)) {
-                found = true;
-                break;
+            if (windowEnd - windowStart + 1 > s1.length()) {
+
+                char leftChar =
+                        s2.charAt(windowStart);
+
+                windowMap.put(
+                        leftChar,
+                        windowMap.get(leftChar) - 1
+                );
+
+                if (windowMap.get(leftChar) == 0) {
+                    windowMap.remove(leftChar);
+                }
+
+                windowStart++;
+            }
+
+            if (windowMap.equals(targetMap)) {
+                System.out.println(true);
+                return;
             }
         }
 
-        System.out.println(found);
+        System.out.println(false);
     }
 }
