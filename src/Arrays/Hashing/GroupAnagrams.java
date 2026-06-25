@@ -1,5 +1,6 @@
 package Arrays.Hashing;
 
+import java.security.Key;
 import java.util.*;
 
 public class GroupAnagrams {
@@ -20,6 +21,6 @@ public class GroupAnagrams {
             }
             map.get(sorted).add(word);
         }
-        System.out.println(new ArrayList<>(map.values()));
+        System.out.println(map.values());
     }
 }
