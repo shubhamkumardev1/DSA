@@ -18,13 +18,13 @@ The goal of this repository is not to collect random solutions, but to master fu
 
 # 📚 Learning Roadmap
 
-## Arrays
+## Arrays ✅
 
 * [x] Traversal
 * [x] Two Pointers
-* [ ] Sliding Window
-* [ ] Hashing
-* [ ] Prefix Sum
+* [x] Sliding Window
+* [x] Prefix Sum
+* [x] Hashing
 * [ ] Binary Search
 
 ## Upcoming Topics
@@ -33,6 +33,7 @@ The goal of this repository is not to collect random solutions, but to master fu
 * [ ] Linked Lists
 * [ ] Stack
 * [ ] Queue
+* [ ] Recursion
 * [ ] Trees
 * [ ] Heaps
 * [ ] Graphs
@@ -49,14 +50,15 @@ DSA-Java
 │   ├── Traversal
 │   ├── TwoPointers
 │   ├── SlidingWindow
-│   ├── Hashing
 │   ├── PrefixSum
+│   ├── Hashing
 │   └── BinarySearch
 │
 ├── Strings
 ├── LinkedLists
 ├── Stack
 ├── Queue
+├── Recursion
 ├── Trees
 ├── Heaps
 ├── Graphs
@@ -119,65 +121,79 @@ DSA-Java
 
 ---
 
-## Sliding Window 🚀 Starting
+## Sliding Window ✅ Completed
 
-### Fixed-Size Window (Window size = k)
+### Fixed Size Window
 
-* Maximum/Minimum Sum of Size k
-* Maximum sum subarray of size k
-* Average of subarrays of size k
-* Count-Based Window
-* Count negative numbers in every window
-* Count distinct elements in every window
-* Frequency-Based Window
-* Maximum vowels in a substring of length k
-* Find anagrams in a string
-* Window Statistics
-* First negative integer in every window
-* Maximum element in every window
+* Maximum Sum Subarray of Size K
+* Average of Subarrays of Size K
+* Maximum Vowels in a Substring of Length K
 
-### Variable-Size Window
+### Variable Size Window
 
-* Longest Subarray/Substring
-* Longest substring without repeating characters
-* Longest subarray with sum ≤ k
-* Longest repeating character replacement
-* Shortest/Minimum Window
-* Minimum size subarray sum
-* Minimum window substring
+* Longest Substring Without Repeating Characters
+* Longest Repeating Character Replacement
+* Minimum Size Subarray Sum
+* Permutation in String
+* Minimum Window Substring
+
+---
+
+## Prefix Sum ✅ Completed
+
+* Range Sum Query
+* Running Sum of 1D Array
+* Product of Array Except Self
+* Subarray Sum Equals K
+
+---
+
+## Hashing ✅ Completed
+
+### Frequency Counting
+
+* Valid Anagram
+* Group Anagrams
+
+### Lookup / Existence
+
+* Contains Duplicate
+* Two Sum
+* Longest Consecutive Sequence
 
 ---
 
 # 📈 Progress
 
-| Pattern             | Status       |
-| ------------------- | -----------  |
-| Traversal           | ✅ Completed |
-| Two Pointers        | ✅ Completed |
-| Sliding Window      | 🚀 Learning  |
-| Hashing             | ⏳ Pending   |
-| Prefix Sum          | ⏳ Pending   |
-| Binary Search       | ⏳ Pending   |
-| Strings             | ⏳ Pending   |
-| Linked Lists        | ⏳ Pending   |
-| Stack               | ⏳ Pending   |
-| Queue               | ⏳ Pending   |
-| Trees               | ⏳ Pending   |
-| Heaps               | ⏳ Pending   |
-| Graphs              | ⏳ Pending   |
-| Dynamic Programming | ⏳ Pending   |
+| Pattern             | Status         |
+| ------------------- | -------------- |
+| Traversal           | ✅ Completed    |
+| Two Pointers        | ✅ Completed    |
+| Sliding Window      | ✅ Completed    |
+| Prefix Sum          | ✅ Completed    |
+| Hashing             | ✅ Completed    |
+| Binary Search       | 🚀 In Progress |
+| Strings             | ⏳ Pending      |
+| Linked Lists        | ⏳ Pending      |
+| Stack               | ⏳ Pending      |
+| Queue               | ⏳ Pending      |
+| Recursion           | ⏳ Pending      |
+| Trees               | ⏳ Pending      |
+| Heaps               | ⏳ Pending      |
+| Graphs              | ⏳ Pending      |
+| Dynamic Programming | ⏳ Pending      |
 
 ---
 
 # 📊 Statistics
 
-| Metric             | Value          |
-| ------------------ | -------------- |
-| Problems Solved    | 25+            |
-| Patterns Completed | 2              |
-| Current Pattern    | Sliding Window |
-| Language           | Java           |
-| IDE                | IntelliJ IDEA  |
+| Metric             | Value         |
+| ------------------ | ------------- |
+| Problems Solved    | 40+           |
+| Patterns Completed | 5             |
+| Current Pattern    | Binary Search |
+| Language           | Java          |
+| IDE                | IntelliJ IDEA |
 
 ---
 
@@ -185,7 +201,8 @@ DSA-Java
 
 Each solution focuses on:
 
-* Understanding the pattern
+* Pattern recognition
+* Brute Force → Optimized approach
 * Clean Java implementation
 * Time Complexity Analysis
 * Space Complexity Analysis
@@ -208,9 +225,38 @@ Each solution focuses on:
 
 This repository follows a pattern-first approach:
 
-Traversal → Two Pointers → Sliding Window → Hashing → Prefix Sum → Binary Search → Strings → Linked Lists → Stack → Queue → Trees → Graphs → Dynamic Programming
+```text
+Traversal
+→ Two Pointers
+→ Sliding Window
+→ Prefix Sum
+→ Hashing
+→ Binary Search
+→ Strings
+→ Linked Lists
+→ Stack
+→ Queue
+→ Trees
+→ Heaps
+→ Graphs
+→ Dynamic Programming
+```
 
 The objective is not to memorize solutions but to recognize recurring patterns and apply them efficiently to unseen problems.
+
+---
+
+# 🔄 Reinforcement Strategy
+
+After completing each major topic, mixed-pattern reinforcement problems are solved to strengthen:
+
+* Pattern recognition
+* Implementation skills
+* Interview readiness
+
+Goal:
+
+> See Problem → Recognize Pattern → Implement Efficiently
 
 ---
 
@@ -222,15 +268,13 @@ The objective is not to memorize solutions but to recognize recurring patterns a
 
 ✅ Two Pointer Pattern Completed
 
-Completed classic interview problems:
+✅ Sliding Window Pattern Completed
 
-* Container With Most Water
-* Trapping Rain Water
-* 3 Sum
-* 4 Sum
-* Pair Closest To Target
+✅ Prefix Sum Pattern Completed
 
-🚀 Currently Learning: Sliding Window
+✅ Hashing Pattern Completed
+
+🚀 Currently Learning: Binary Search
 
 ---
 
