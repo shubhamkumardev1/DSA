@@ -1,6 +1,6 @@
 package Arrays.BinarySearch;
 
-public class FirstOccurence {
+public class FirstOccurrence {
     static void main() {
         int[] arr = {1,2,2,2,3,3,4};
         int target = 2;
@@ -22,6 +22,6 @@ public class FirstOccurence {
                 left = mid + 1;
             }
         }
-        System.out.println("First Occurence at index: " +answer);
+        System.out.println("First Occurrence at index: " +answer);
     }
 }
