@@ -2,7 +2,7 @@ package Arrays.BinarySearch;
 
 public class MinInRotatedSortedArray {
     static void main() {
-        int[] arr = {4,5,6,7,8,9,0,1,2};
+        int[] arr = {4,5,6,7,8,9,1,2};
         int left = 0;
         int right = arr.length-1;
 
@@ -14,6 +14,6 @@ public class MinInRotatedSortedArray {
                 right = mid;
             }
         }
-        System.out.println(left);
+        System.out.println("Minimum element in the array: " +arr[left]);
     }
 }
