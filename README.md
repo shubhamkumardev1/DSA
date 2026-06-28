@@ -1,31 +1,64 @@
 # Data Structures & Algorithms in Java 🚀
 
-A structured collection of Data Structures & Algorithms problems solved in Java using a pattern-based learning approach.
+A structured collection of Data Structures & Algorithms problems solved in Java using a **pattern-based learning approach**.
 
-The goal of this repository is not to collect random solutions, but to master fundamental problem-solving patterns commonly asked in Software Engineering interviews and apply clean, efficient Java implementations.
+The purpose of this repository is not to collect random solutions, but to develop strong problem-solving ability, pattern recognition skills, and interview readiness through clean and efficient Java implementations.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
-* Master Data Structures & Algorithms through pattern recognition
-* Develop strong problem-solving skills
-* Strengthen Java programming fundamentals
-* Build interview-ready coding skills
-* Maintain a consistent learning journey with documented progress
+* Master Data Structures & Algorithms through pattern recognition.
+* Develop strong analytical and problem-solving skills.
+* Strengthen Java programming fundamentals.
+* Build interview-ready coding skills for Software Engineering roles.
+* Maintain a consistent and documented learning journey.
+* Focus on understanding **why a solution works**, not memorizing solutions.
+
+---
+
+# 💡 Learning Philosophy
+
+> **Learn patterns, not problems.**
+
+This repository follows a **Pattern → Problems → Reinforcement** approach.
+
+```text
+Learn Pattern
+      ↓
+Solve Representative Problems
+      ↓
+Recognize Signals
+      ↓
+Master Implementation
+      ↓
+Mixed Reinforcement
+```
+
+The objective is to:
+
+```text
+See Problem
+      ↓
+Recognize Pattern
+      ↓
+Design Solution
+      ↓
+Implement Efficiently
+```
 
 ---
 
 # 📚 Learning Roadmap
 
-## Arrays ✅
+## Arrays ✅ Completed
 
 * [x] Traversal
 * [x] Two Pointers
 * [x] Sliding Window
 * [x] Prefix Sum
 * [x] Hashing
-* [ ] Binary Search
+* [x] Binary Search
 
 ## Upcoming Topics
 
@@ -35,7 +68,7 @@ The goal of this repository is not to collect random solutions, but to master fu
 * [ ] Queue
 * [ ] Recursion
 * [ ] Trees
-* [ ] Heaps
+* [ ] Heaps / Priority Queue
 * [ ] Graphs
 * [ ] Dynamic Programming
 
@@ -52,7 +85,9 @@ DSA-Java
 │   ├── SlidingWindow
 │   ├── PrefixSum
 │   ├── Hashing
-│   └── BinarySearch
+│   ├── BinarySearch
+│   ├── Reinforcement
+│   └── MasterRevisionNotes
 │
 ├── Strings
 ├── LinkedLists
@@ -62,28 +97,30 @@ DSA-Java
 ├── Trees
 ├── Heaps
 ├── Graphs
-└── DynamicProgramming
+├── DynamicProgramming
+│
+└── MistakeJournal
 ```
 
 ---
 
-# ✅ Problems Solved
+# ✅ Arrays Module Completed
 
-## Array Traversal ✅ Completed
+## Traversal Pattern
 
 * Count Even Numbers
 * Minimum Element
 * Sum of Array
 * Average of Array
-* Positive / Negative Numbers Identification
-* Counting Zeros
+* Positive / Negative Identification
+* Count Zeros
 * Largest Even Number
 * Linear Search
 * Occurrence Count
 
 ---
 
-## Two Pointer Pattern ✅ Completed
+## Two Pointer Pattern
 
 ### Basic Two Pointers
 
@@ -92,25 +129,25 @@ DSA-Java
 * Valid Palindrome
 * Valid Palindrome II
 * Mirrored String
-* Counting Matching Pairs
+* Count Matching Pairs
 * Reverse Words in String
 
 ### Opposite Direction Pointers
 
 * Two Sum (Sorted Array)
 * Count Pairs with Target Sum
-* Pair Closest To Target
+* Pair Closest to Target
 
 ### Fast-Slow Pointers
 
 * Remove Duplicates from Sorted Array
 * Move Zeros
-* Remove Target Elements
+* Remove Element
 * Move Negatives to End
 
 ### Partitioning
 
-* Dutch National Flag Problem (Sort Colors)
+* Dutch National Flag Problem
 
 ### Advanced Two Pointers
 
@@ -121,7 +158,7 @@ DSA-Java
 
 ---
 
-## Sliding Window ✅ Completed
+## Sliding Window Pattern
 
 ### Fixed Size Window
 
@@ -139,16 +176,16 @@ DSA-Java
 
 ---
 
-## Prefix Sum ✅ Completed
+## Prefix Sum Pattern
 
-* Range Sum Query
 * Running Sum of 1D Array
+* Range Sum Query
 * Product of Array Except Self
 * Subarray Sum Equals K
 
 ---
 
-## Hashing ✅ Completed
+## Hashing Pattern
 
 ### Frequency Counting
 
@@ -163,50 +200,125 @@ DSA-Java
 
 ---
 
+## Binary Search Pattern
+
+### Classic Binary Search
+
+* Binary Search
+* Search Insert Position
+
+### Boundary Search
+
+* First Occurrence
+* Last Occurrence
+* Find First and Last Position
+
+### Rotated Sorted Array
+
+* Search in Rotated Sorted Array
+* Find Minimum in Rotated Sorted Array
+
+### Peak Pattern
+
+* Find Peak Element
+
+### Matrix Binary Search
+
+* Search a 2D Matrix
+
+### Binary Search on Answer
+
+* Koko Eating Bananas
+
+---
+
 # 📈 Progress
 
-| Pattern             | Status         |
-| ------------------- | -------------- |
-| Traversal           | ✅ Completed    |
-| Two Pointers        | ✅ Completed    |
-| Sliding Window      | ✅ Completed    |
-| Prefix Sum          | ✅ Completed    |
-| Hashing             | ✅ Completed    |
-| Binary Search       | 🚀 In Progress |
-| Strings             | ⏳ Pending      |
-| Linked Lists        | ⏳ Pending      |
-| Stack               | ⏳ Pending      |
-| Queue               | ⏳ Pending      |
-| Recursion           | ⏳ Pending      |
-| Trees               | ⏳ Pending      |
-| Heaps               | ⏳ Pending      |
-| Graphs              | ⏳ Pending      |
-| Dynamic Programming | ⏳ Pending      |
+| Topic               | Status      |
+| ------------------- | ----------- |
+| Arrays              | ✅ Completed |
+| Strings             | ⏳ Pending   |
+| Linked Lists        | ⏳ Pending   |
+| Stack               | ⏳ Pending   |
+| Queue               | ⏳ Pending   |
+| Recursion           | ⏳ Pending   |
+| Trees               | ⏳ Pending   |
+| Heaps               | ⏳ Pending   |
+| Graphs              | ⏳ Pending   |
+| Dynamic Programming | ⏳ Pending   |
 
 ---
 
 # 📊 Statistics
 
-| Metric             | Value         |
-| ------------------ | ------------- |
-| Problems Solved    | 40+           |
-| Patterns Completed | 5             |
-| Current Pattern    | Binary Search |
-| Language           | Java          |
-| IDE                | IntelliJ IDEA |
+| Metric                 | Value         |
+| ---------------------- | ------------- |
+| Problems Solved        | 45+           |
+| Patterns Completed     | 6             |
+| Major Topics Completed | 1             |
+| Current Topic          | Strings       |
+| Language               | Java          |
+| IDE                    | IntelliJ IDEA |
 
 ---
 
 # 🔍 Solution Format
 
-Each solution focuses on:
+Each solution includes:
 
-* Pattern recognition
-* Brute Force → Optimized approach
-* Clean Java implementation
+* Problem Understanding
+* Brute Force Approach
+* Optimized Approach
+* Pattern Recognition
+* Java Implementation
+* Dry Run
 * Time Complexity Analysis
 * Space Complexity Analysis
-* Interview-oriented problem-solving
+* Interview Discussion
+
+---
+
+# 🔄 Reinforcement Strategy
+
+After completing a major topic, mixed-pattern problems are solved without knowing the pattern beforehand.
+
+Goal:
+
+```text
+Question
+   ↓
+Recognize Pattern
+   ↓
+Implement Solution
+```
+
+This simulates real software engineering interviews.
+
+---
+
+# 📝 Master Revision Notes
+
+Each major topic contains:
+
+* Recognition Signals
+* Core Intuition
+* Generic Templates
+* Common Mistakes
+* Complexity Patterns
+* One-Line Revision Notes
+
+---
+
+# 📓 Mistake Journal
+
+A dedicated journal is maintained to record:
+
+* Common implementation mistakes
+* Edge cases missed
+* Incorrect assumptions
+* Lessons learned
+
+The purpose is continuous improvement and avoiding repeated mistakes.
 
 ---
 
@@ -216,47 +328,6 @@ Each solution focuses on:
 * IntelliJ IDEA
 * Git
 * GitHub
-
----
-
-# 💡 Learning Philosophy
-
-> Learn patterns, not problems.
-
-This repository follows a pattern-first approach:
-
-```text
-Traversal
-→ Two Pointers
-→ Sliding Window
-→ Prefix Sum
-→ Hashing
-→ Binary Search
-→ Strings
-→ Linked Lists
-→ Stack
-→ Queue
-→ Trees
-→ Heaps
-→ Graphs
-→ Dynamic Programming
-```
-
-The objective is not to memorize solutions but to recognize recurring patterns and apply them efficiently to unseen problems.
-
----
-
-# 🔄 Reinforcement Strategy
-
-After completing each major topic, mixed-pattern reinforcement problems are solved to strengthen:
-
-* Pattern recognition
-* Implementation skills
-* Interview readiness
-
-Goal:
-
-> See Problem → Recognize Pattern → Implement Efficiently
 
 ---
 
@@ -274,8 +345,12 @@ Goal:
 
 ✅ Hashing Pattern Completed
 
-🚀 Currently Learning: Binary Search
+✅ Binary Search Pattern Completed
+
+🎉 Arrays Module Completed
+
+🚀 Currently Learning: Strings
 
 ---
 
-⭐ One pattern at a time. One problem at a time. Consistent progress compounds.
+> One pattern at a time. One problem at a time. Consistent progress compounds.
