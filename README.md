@@ -45,6 +45,7 @@ Recognize Pattern
 Design Solution
       ↓
 Implement Efficiently
+
 ```
 
 ---
