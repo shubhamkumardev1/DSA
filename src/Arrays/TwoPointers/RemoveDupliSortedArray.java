@@ -2,7 +2,7 @@ package Arrays.TwoPointers;
 
 public class RemoveDupliSortedArray {
     static void main(String[] args) {
-        int[] arr = {1,1,2,2,3,4,4};
+        int[] arr = {1,1,2,2,3,4,4,5};
 
         if (arr.length == 0){
             System.out.println("Empty array");
