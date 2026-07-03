@@ -1,6 +1,4 @@
-package Arrays.Reinforcement;
-
-import java.util.HashSet;
+package Arrays.Reinforcement.Self;
 
 public class RemoveDuplicates {
     static void main() {

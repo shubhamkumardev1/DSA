@@ -1,4 +1,4 @@
-package Arrays.Reinforcement;
+package Arrays.Reinforcement.Self;
 
 public class LinearSearch {
 
