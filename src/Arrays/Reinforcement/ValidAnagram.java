@@ -1,4 +1,4 @@
-package Arrays.Reinforcement.Self;
+package Arrays.Reinforcement;
 
 import java.util.HashMap;
 

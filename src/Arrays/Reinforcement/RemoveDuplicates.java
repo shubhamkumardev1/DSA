@@ -1,4 +1,4 @@
-package Arrays.Reinforcement.Self;
+package Arrays.Reinforcement;
 
 public class RemoveDuplicates {
     static void main() {

@@ -1,4 +1,4 @@
-package Arrays.Reinforcement.Self;
+package Arrays.Reinforcement;
 
 public class twoSum {
     static void main() {

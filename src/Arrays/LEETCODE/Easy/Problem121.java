@@ -1,4 +1,4 @@
-package Arrays.Reinforcement.LEETCODE.Easy;
+package Arrays.LEETCODE.Easy;
 
 public class Problem121{
     public static int profit(int[] prices){
